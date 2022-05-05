@@ -897,7 +897,7 @@ ul {
     width: 100vw;
     height: 10vh;
   }
-  
+
   .uper-bar {
     display: flex;
     flex-direction: column;
@@ -1037,7 +1037,7 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
   }
-  
+
   .language {
     position: relative;
   }
@@ -1046,7 +1046,7 @@ ul {
     position: relative;
     margin-top: -200px;
   }
-  
+
   .skills {
     position: relative;
     margin-top: -480px;
