@@ -949,7 +949,6 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    
   }
 
   .contacts > ul {
@@ -996,7 +995,7 @@ ul {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: -100.0%;
+    left: -100%;
     right: -60.11%;
     top: -650.7%;
     bottom: 9.92%;
@@ -1010,8 +1009,6 @@ ul {
     top: 8.47%;
     bottom: 1.09%;
   }
-
-  
 
   .section2 {
     width: 100vw;
@@ -1030,7 +1027,6 @@ ul {
     margin-left: -180px;
     overflow: hidden;
   }
-
 
   .multi-image {
     display: grid;
@@ -1101,20 +1097,12 @@ ul {
     margin-top: 44px;
   }
 
-  .me {
-    margin-left: 60px;
-  }
-
   .hello {
     margin-left: 60px;
   }
 
   .get {
     margin-left: 60px;
-  }
-
-  .hello {
-    margin-top: -140px;
   }
 
   .devider-image {
