@@ -81,6 +81,14 @@ body {
   margin-bottom: 24px;
 }
 
+.contacts {
+  display: none;
+}
+
+.name {
+  display: none;
+}
+
 .images {
   padding: 6px;
   top: calc(50% - 16px / 2 + 0.5px);
@@ -311,6 +319,10 @@ ul {
   left: 24px;
   top: 200px;
   overflow-x: hidden;
+}
+
+.vector-image-big {
+  display: none;
 }
 
 .multi {
@@ -899,10 +911,7 @@ ul {
   }
 
   .uper-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 80vw;
+    display: none;
   }
 
   .time {
@@ -910,11 +919,48 @@ ul {
   }
 
   .haftamu {
-    margin-top: -36px;
+    display: none;
   }
 
   .allign {
     display: none;
+  }
+
+  .desktop-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts {
+    display: flex;
+  }
+
+  .name {
+    display: flex;
+    position: relative;
+    width: 72px;
+    height: 24px;
+    left: 0;
+    margin-left: 60px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    
+  }
+
+  .contacts > ul {
+    display: flex;
+    margin-right: 44px;
+  }
+
+  .contacts > ul > li {
+    display: flex;
+    padding: 8px;
+    color: #fff;
   }
 
   .section1 {
@@ -942,24 +988,30 @@ ul {
 
   .info {
     margin-left: 100px;
+    width: 36%;
+    height: 123px;
   }
 
   .social-media > ul {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 0.09%;
-    right: 96.11%;
-    top: -450.7%;
+    position: relative;
+    left: -100.0%;
+    right: -60.11%;
+    top: -650.7%;
     bottom: 9.92%;
-    justify-content: flex-start;
+    
   }
 
   .group {
-    left: 86.6%;
-    right: 80.41%;
-    top: 16.23%;
+    position: absolute;
+    left: 88.31%;
+    right: 50.82%;
+    top: 8.47%;
+    bottom: 1.09%;
   }
+
+  
 
   .section2 {
     width: 100vw;
@@ -974,20 +1026,39 @@ ul {
 
   .vector1 {
     margin-top: -8px;
+    width: 684px;
+    margin-left: -180px;
+    overflow: hidden;
   }
+
 
   .multi-image {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
+  .placeholder1 {
+    display: none;
+  }
+
+  .vector-image-big {
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 388px;
+    margin-top: 160px;
+    margin-left: 6px;
+  }
+
   .multi-postP {
+    width: 448px;
     margin-top: -300px;
+    margin-left: -10px;
     overflow: hidden;
   }
 
   .multi {
-    margin-left: 52%;
+    margin-left: 615px;
     margin-top: -280px;
   }
 
@@ -996,6 +1067,9 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2%;
     overflow: hidden;
+    padding-left: 2px;
+    padding-right: -8px;
+    margin-top: 60px;
   }
 
   .profesional {
@@ -1013,7 +1087,7 @@ ul {
   }
 
   .aboutMe {
-    margin-top: -100px;
+    margin-top: 100px;
   }
 
   .aboutMeLower {
@@ -1021,6 +1095,22 @@ ul {
     left: 85.94%;
     right: 77.22%;
     bottom: 90.67%;
+  }
+
+  .me {
+    margin-top: 44px;
+  }
+
+  .me {
+    margin-left: 60px;
+  }
+
+  .hello {
+    margin-left: 60px;
+  }
+
+  .get {
+    margin-left: 60px;
   }
 
   .hello {
@@ -1070,15 +1160,26 @@ ul {
     grid-template-columns: 1fr 1fr;
   }
 
+  .always {
+    margin-top: 60px;
+    margin-left: 44px;
+  }
+
   .forms {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     overflow: hidden;
+  }
+
+  .input {
+    height: 18px;
   }
 
   .images-last {
     width: 100vw;
+    margin-top: -100px;
+    margin-left: 40px;
     overflow: hidden;
   }
 
