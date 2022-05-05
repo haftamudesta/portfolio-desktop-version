@@ -893,7 +893,7 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
- .nav-container {
+  .nav-container {
     width: 100vw;
     height: 10vh;
   }
@@ -940,27 +940,23 @@ ul {
     margin-left: 100px;
   }
 
-.info {
-  margin-left: 100px;
-}
-
-.social-media > ul {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 0.09%;
-  right: 96.11%;
-  top: -450.7%;
-  bottom: 9.92%;
-  justify-content: flex-start;
-}
-
   .info {
-    width: 40%;
+    margin-left: 100px;
   }
 
+  .social-media > ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0.09%;
+    right: 96.11%;
+    top: -450.7%;
+    bottom: 9.92%;
+    justify-content: flex-start;
+ }
+
   .group {
-    left: 86.60%;
+    left: 86.6%;
     right: 80.41%;
     top: 16.23%;
   }
@@ -973,7 +969,7 @@ ul {
   .my-works {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 0;
   }
 
   .vector1 {
@@ -988,11 +984,11 @@ ul {
   .multi-postP {
     margin-top: -300px;
     overflow: hidden;
- }
+  }
 
   .multi {
     margin-left: 52%;
-    margin-top: -280px
+    margin-top: -280px;
   }
 
   .profesinal_arts {
@@ -1041,6 +1037,7 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
   }
+  
   .language {
     position: relative;
   }
@@ -1049,10 +1046,11 @@ ul {
     position: relative;
     margin-top: -200px;
   }
+  
   .skills {
     position: relative;
     margin-top: -480px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .lastimage {
@@ -1061,11 +1059,6 @@ ul {
     right: 80.45%;
     top: 84.33%;
     bottom: -25.14%;
-  }
-
-  .devider-image {
-    overflow: hidden;
-    margin-right: 44px;
   }
 
   .section4 {
