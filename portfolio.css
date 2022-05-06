@@ -633,6 +633,10 @@ ul {
   bottom: 2%;
 }
 
+.big-image {
+  display: none;
+}
+
 .devider {
   position: relative;
   width: 327px;
@@ -964,6 +968,11 @@ ul {
 
   .section1 {
     width: 100vw;
+    background-position: left;
+    background-image: url(../portfolio-desktop-version/images/Gourp1B.png);
+    background-repeat: no-repeat;
+    background-position-x: 690px;
+    
   }
 
   .top_part {
@@ -1002,6 +1011,7 @@ ul {
   }
 
   .group {
+    display: none;
     position: absolute;
     left: 88.31%;
     right: 50.82%;
@@ -1011,7 +1021,9 @@ ul {
 
   .section2 {
     width: 100vw;
-    height: 1200px;
+    height: 1400px;
+    padding-left: 44px;
+    padding-right: 44px;
   }
 
   .my-works {
@@ -1020,11 +1032,16 @@ ul {
     grid-gap: 0;
   }
 
+  .recent {
+    margin-right: -120px;
+  }
+
   .vector1 {
     margin-top: -8px;
-    width: 684px;
-    margin-left: -180px;
+    width: 46%;
+    margin-left: -330px;
     overflow: hidden;
+    margin-right: 800px;
   }
 
   .multi-image {
@@ -1046,14 +1063,15 @@ ul {
   }
 
   .multi-postP {
-    width: 448px;
+    width: 350px;
     margin-top: -300px;
     margin-left: -10px;
     overflow: hidden;
+    margin-right: 450px;
   }
 
   .multi {
-    margin-left: 615px;
+    margin-left: 660px;
     margin-top: -280px;
   }
 
@@ -1062,8 +1080,7 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2%;
     overflow: hidden;
-    padding-left: 2px;
-    padding-right: -8px;
+    padding-right: 80px;
     margin-top: 60px;
   }
 
@@ -1083,6 +1100,7 @@ ul {
 
   .aboutMe {
     margin-top: 100px;
+    overflow: hidden;
   }
 
   .aboutMeLower {
@@ -1104,6 +1122,22 @@ ul {
 
   .get {
     margin-left: 60px;
+  }
+
+  .lastImage {
+    display: none;
+  }
+
+  .big-image {
+    display: flex;
+    position: relative;
+    width: 40%;
+    transform: matrix(1, 0, 0, 1, -350, -100);
+    margin-bottom: -6400px;
+    margin-top: 300px;
+    margin-left: 44px;
+    
+    
   }
 
   .devider-image {
@@ -1151,7 +1185,7 @@ ul {
 
   .always {
     margin-top: 60px;
-    margin-left: 44px;
+    margin-left: 80px;
   }
 
   .forms {
@@ -1159,6 +1193,7 @@ ul {
     flex-direction: column;
     width: 30%;
     overflow: hidden;
+    margin-left: 100px;
   }
 
   .input {
@@ -1168,7 +1203,7 @@ ul {
   .images-last {
     width: 100vw;
     margin-top: -100px;
-    margin-left: 40px;
+    
     overflow: hidden;
   }
 
@@ -1178,7 +1213,7 @@ ul {
 
   .social-media1 > ul {
     align-items: center;
-    margin-left: 40%;
+    margin-left: 36%;
   }
 
   .shape {
